@@ -21,6 +21,7 @@ alias napkin='hx .napkin'
 alias lg=lazygit
 alias pv=~/notes/preview.sh
 alias bp=battery-percentage
+alias aw="ansiweather -a false -l brønderslev"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
