@@ -16,7 +16,9 @@ eval $(thefuck --alias)
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
+export PF_INFO="ascii title os host kernel uptime pkgs memory shell editor wm de palette"
+export PF_ALIGN="7"
+export PF_ASCII="arch"
 alias napkin='hx .napkin'
 alias lg=lazygit
 alias pv=~/notes/preview.sh
