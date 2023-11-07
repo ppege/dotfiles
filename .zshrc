@@ -24,7 +24,7 @@ alias pv=~/notes/preview.sh
 alias bp=battery-percentage
 alias aw="ansiweather -a false -l brønderslev"
 alias srcrc="source $HOME/.zshrc"
-alias psst="cargo run --bin psst-gui --manifest-path $HOME/code/psst/Cargo.toml"
+alias psst="cargo run --bin psst-gui --manifest-path $HOME/code/psst/Cargo.toml &"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
