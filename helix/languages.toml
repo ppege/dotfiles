@@ -44,3 +44,8 @@ auto-format = true
 name = "svelte"
 formatter = { command = 'prettier', args = ["--parser", "svelte"] }
 auto-format = true
+
+[[language]]
+name = "markdown"
+language-servers = [ "marksman", "ltex-ls" ]
+
