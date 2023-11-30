@@ -21,6 +21,15 @@ file-types = [
 [[language]]
 name = "html"
 formatter = { command = 'prettier', args = ["--parser", "html"] }
+scope = "text.html.basic"
+file-types = ["html"]
+language-servers = [ "tailwindcss-html", "vscode-html-language-server" ]
+
+[language-server.tailwindcss-html]
+language-id = "html"
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+config = { }
 
 [[language]]
 name = "json"
@@ -44,6 +53,14 @@ auto-format = true
 name = "svelte"
 formatter = { command = 'prettier', args = ["--parser", "svelte"] }
 auto-format = true
+roots = ["tailwind.config.js","tailwind.config.cjs"]
+language-servers = [ "tailwindcss-svelte", "svelteserver" ]
+
+[language-server.tailwindcss-svelte]
+language-id = "svelte"
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+config = { }
 
 [[language]]
 name = "markdown"

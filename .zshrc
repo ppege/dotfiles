@@ -25,7 +25,7 @@ alias bp=battery-percentage
 alias aw="ansiweather -a false -l brønderslev"
 alias srcrc="source $HOME/.zshrc"
 alias spd="spotifyd --username nanguthenangu@gmail.com --password-cmd 'cat $HOME/passwords/spotify'"
-alias nf=nerdfetch
+alias nf="nerdfetch && echo ''"
 alias nuc=numi-cli
 
 # Fig post block. Keep at the bottom of this file.
