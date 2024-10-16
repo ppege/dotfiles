@@ -7,6 +7,7 @@ if status --is-login
     fish_add_path /opt/homebrew/bin/
 end
 
+export HELIX_RUNTIME=~/src/helix/runtime
 export PF_INFO="ascii title os host kernel uptime pkgs memory
  shell editor wm de palette"
 export PF_ALIGN="7"
