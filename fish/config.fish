@@ -22,3 +22,4 @@ alias nf="nerdfetch && echo ''"
 alias pf=pfetch
 alias nuc=numi-cli
 alias rl="readlink -f"
+starship init fish | source
