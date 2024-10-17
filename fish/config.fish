@@ -16,7 +16,6 @@ alias napkin='hx .napkin'
 alias lg=lazygit
 alias pv=~/notes/preview.sh
 alias pd=~/notes/pd.sh
-alias srcrc="source $HOME/.zshrc"
 alias spd="spotifyd --username nanguthenangu@gmail.com --password-cmd 'cat $HOME/passwords/spotify'"
 alias nf="nerdfetch && echo ''"
 alias pf=pfetch
