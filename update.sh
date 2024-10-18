@@ -1,5 +1,5 @@
 # delete and replace kitty
-cp -fr kitty ~/.config/kitty
+cp -fr kitty ~/.config/
 
 # delete and replace tmux
 cp -fr .tmux.conf ~/.tmux.conf
@@ -8,10 +8,10 @@ cp -fr .tmux.conf ~/.tmux.conf
 cp -fr .zshrc ~/.zshrc
 
 # delete and replace fish config
-cp -fr fish ~/.config/fish
+cp -fr fish ~/.config/
 
 # delete and replace wezterm config
-cp -fr wezterm ~/.config/wezterm
+cp -fr wezterm ~/.config/
 
 # delete and replace helix
-cp -fr helix ~/.config/helix
+cp -fr helix ~/.config/
