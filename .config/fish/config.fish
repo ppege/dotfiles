@@ -16,3 +16,4 @@ export PF_ALIGN="7"
 export EDITOR="hx"
 starship init fish | source
 jump shell fish | source
+source "$HOME/.cargo/env.fish"

@@ -1,7 +1,8 @@
 local wezterm = require 'wezterm'
 local config = {}
 
-config.font = wezterm.font 'Cascadia Mono'
+--config.font = wezterm.font 'Cascadia Mono'
+config.font = wezterm.font 'FiraCode Nerd Font'
 config.font_size = 21.5
 config.color_scheme = 'GruvboxDark'
 --config.window_padding = {
