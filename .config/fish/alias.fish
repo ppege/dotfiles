@@ -3,6 +3,14 @@ alias git=hub
 alias vim=nvim
 alias ls=lsd
 
+# tmux
+abbr -a t   tmux
+abbr -a ta  tmux a
+abbr -a ts  tmux list-sessions
+abbr -a tw  tmux list-windows
+abbr -a tp  tmux list-panes
+abbr -a tks tmux kill-server
+
 # git
 abbr -a gs  git status -sb
 abbr -a ga  git add

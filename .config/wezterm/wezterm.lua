@@ -1,10 +1,30 @@
 local wezterm = require 'wezterm'
 local config = {}
 
+function get_appearance()
+  if wezterm.gui then
+    return wezterm.gui.get_appearance()
+  end
+  return 'Dark'
+end
+
+function scheme_for_appearance(appearance)
+  if appearance:find 'Dark' then
+    --return 'GruvboxDark'
+    return 'ferra'
+  else
+    return 'Atelier Estuary Light (base16)'
+  end
+end
+
 --config.font = wezterm.font 'Cascadia Mono'
-config.font = wezterm.font 'FiraCode Nerd Font'
-config.font_size = 21.5
-config.color_scheme = 'GruvboxDark'
+--config.font = wezterm.font 'FiraCode Nerd Font'
+config.font = wezterm.font_with_fallback {
+  'JetBrainsMono Nerd Font',
+  'FiraCode Nerd Font',
+}
+config.font_size = 20
+config.color_scheme = scheme_for_appearance(get_appearance())
 --config.window_padding = {
 --  left = 0,
 --  right = 0,
