@@ -25,12 +25,13 @@ config.font = wezterm.font_with_fallback {
 }
 config.font_size = 20
 config.color_scheme = scheme_for_appearance(get_appearance())
---config.window_padding = {
---  left = 0,
---  right = 0,
---  top = 0,
---  bottom = 0,
---}
+--adjust_window_size_when_changing_font_size = false
+config.window_padding = {
+  left = 0,
+  right = 0,
+  top = 0,
+  bottom = 0,
+}
 config.enable_tab_bar = false
 config.initial_rows = 20
 config.initial_cols = 60
