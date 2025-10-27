@@ -20,11 +20,11 @@ end
 --config.font = wezterm.font 'Cascadia Mono'
 --config.font = wezterm.font 'FiraCode Nerd Font'
 config.font = wezterm.font_with_fallback {
+  'Iosevka Term SS14',
   'JetBrainsMono Nerd Font',
-  'FiraCode Nerd Font',
 }
 config.font_size = 20
-config.color_scheme = scheme_for_appearance(get_appearance())
+config.color_scheme = 'ferra'
 --adjust_window_size_when_changing_font_size = false
 config.window_padding = {
   left = 0,

@@ -1,0 +1,24 @@
+{
+  "Theme": "Stardrop",
+  "Language": "English",
+  "ModGroupingMethod": 0,
+  "Version": "1.2.1",
+  "LastSelectedProfileName": "Default",
+  "SMAPIFolderPath": null,
+  "ModFolderPath": null,
+  "ModInstallPath": null,
+  "IgnoreHiddenFolders": true,
+  "EnableProfileSpecificModConfigs": false,
+  "ShouldWriteToModConfigs": false,
+  "EnableModsOnAdd": false,
+  "AlwaysAskToDelete": true,
+  "ShouldAutomaticallySaveProfileChanges": true,
+  "PreferredNexusServer": 0,
+  "IsAskingBeforeAcceptingNXM": true,
+  "GameDetails": null,
+  "NexusDetails": {
+    "Username": null,
+    "IsPremium": false,
+    "Key": null
+  }
+}

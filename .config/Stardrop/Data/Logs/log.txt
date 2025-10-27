@@ -1,0 +1,61 @@
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Program.Main: Line 75] 
+-- Startup Data --
+Time: 06/03/2025 10.16.21
+OS: [macOS] Darwin 24.1.0 Darwin Kernel Version 24.1.0: Thu Oct 10 21:05:14 PDT 2024; root:xnu-11215.41.3~2/RELEASE_ARM64_T8103
+Settings Directory: /Users/stepien/.config/Stardrop/Data
+Active Directory: /Applications/Stardrop.app/Contents/MacOS
+Version: v1.2.1
+----------------------
+
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Program.Main: Line 76] Started with the following arguments: 
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language zh
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language tr
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language hu
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language de
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language ru
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language uk
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language pt
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language it
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language fr
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language default
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language th
+[06/03/2025 10.16.21][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language es
+LogHost: Initializing to normal mode (.cctor)
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language zh
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language tr
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language hu
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language de
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language ru
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language uk
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language pt
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language it
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language fr
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language default
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language th
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Utilities\Translation.LoadTranslations: Line 117] Loaded language es
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\App.Initialize: Line 39] Loaded theme Solarized-Lite
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\App.Initialize: Line 39] Loaded theme Stardrop
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\App.Initialize: Line 39] Loaded theme Light
+[06/03/2025 10.16.24][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\App.Initialize: Line 39] Loaded theme Dark
+[Binding] Error in binding to 'Avalonia.Controls.NativeMenuItem'.'Command': 'Null value in expression '{empty}' at ''.' (NativeMenuItem #3568621)
+[Binding] Error in binding to 'Avalonia.Controls.DataGridTemplateColumn'.'IsVisible': 'Null value in expression '{empty}' at ''.' (DataGridTemplateColumn #41270904)
+[Binding] Error in binding to 'Avalonia.Controls.DataGridTemplateColumn'.'IsVisible': 'Null value in expression '{empty}' at ''.' (DataGridTemplateColumn #34211353)
+[06/03/2025 10.16.25][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\MainWindow.CheckForModUpdates: Line 1784] Attempting to check for mod updates via cache
+[06/03/2025 10.16.25][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\WarningWindow..ctor: Line 36] Created a warning window with the following text: [OK] Unable to locate SMAPI-latest.txt! SMAPI is required to run successfully at least once for Stardrop to detect game details.
+[06/03/2025 10.16.25][Alert][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\MainWindow.CheckForModUpdates: Line 1966] Failed to get mod updates via smapi.io: System.InvalidOperationException: Cannot show window with non-visible parent.
+   at Avalonia.Controls.Window.ShowDialog[TResult](Window owner) in /_/src/Avalonia.Controls/Window.cs:line 755
+   at Avalonia.Controls.Window.ShowDialog(Window owner) in /_/src/Avalonia.Controls/Window.cs:line 722
+   at Stardrop.Views.MainWindow.CreateWarningWindow(String warningText, String buttonText) in C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\MainWindow.axaml.cs:line 349
+   at Stardrop.Views.MainWindow.CheckForModUpdates(List`1 mods, Boolean useCache, Boolean probe, Boolean skipCacheCheck) in C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\MainWindow.axaml.cs:line 1825
+[06/03/2025 10.16.25][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\MainWindow..ctor: Line 197] Initialization complete!
+[06/03/2025 10.16.27][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\WarningWindow..ctor: Line 36] Created a warning window with the following text: [OK] Unable to locate StardewModdingAPI.exe
+
+Please set the correct file path under
+View > Settings
+[06/03/2025 10.16.31][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\MainWindow.DisplaySettingsWindow: Line 1226] Opening settings window
+[Binding] Error in binding to 'Avalonia.Controls.CheckBox'.'Tip': 'Could not find a matching property accessor for 'ToolTip_AlwaysAskToDelete' on 'Stardrop.ViewModels.SettingsWindowViewModel'' (CheckBox #40863243)
+[06/03/2025 10.16.31][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\SettingsWindow..ctor: Line 56] Loaded theme Solarized-Lite
+[06/03/2025 10.16.31][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\SettingsWindow..ctor: Line 56] Loaded theme Stardrop
+[06/03/2025 10.16.31][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\SettingsWindow..ctor: Line 56] Loaded theme Light
+[06/03/2025 10.16.31][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\SettingsWindow..ctor: Line 56] Loaded theme Dark
+[06/03/2025 11.52.28][Debug][C:\Users\Floogen\Documents\GitHub Repos\Stardrop\Stardrop\Views\MainWindow.CheckForNexusConnection: Line 1978] Attempting to check for Nexus Mods connection (Has valid client: False)

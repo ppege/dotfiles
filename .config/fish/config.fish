@@ -17,3 +17,11 @@ export EDITOR="hx"
 starship init fish | source
 jump shell fish | source
 source "$HOME/.cargo/env.fish"
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+
+fish_add_path /Users/stepien/.spicetify
+
+fish_add_path /Users/toof/.spicetify

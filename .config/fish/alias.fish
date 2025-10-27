@@ -11,6 +11,9 @@ abbr -a tw  tmux list-windows
 abbr -a tp  tmux list-panes
 abbr -a tks tmux kill-server
 
+# cargo
+abbr -a cr  cargo run
+
 # git
 abbr -a gs  git status -sb
 abbr -a ga  git add
@@ -49,12 +52,13 @@ alias lt='ls --tree'
 # misc
 alias reload='exec fish'
 
-alias napkin='hx .napkin'
 alias lg=lazygit
 alias pv=~/notes/preview.sh
 alias pd=~/notes/pd.sh
 alias spd="spotifyd --username nanguthenangu@gmail.com --password-cmd 'cat $HOME/passwords/spotify'"
 alias nf="nerdfetch && echo ''"
 alias pf=pfetch
+alias ff=fastfetch
 alias nuc=numi-cli
 alias rl="readlink -f"
+alias unquarantine="xattr -dr com.apple.quarantine"
