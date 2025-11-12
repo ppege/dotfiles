@@ -13,6 +13,7 @@
 !.config/ghostty/
 !.config/helix/
 !.config/neofetch/
+!.config/nvim/
 !.config/skhd/
 !.config/wezterm/
 !.config/yazi/
